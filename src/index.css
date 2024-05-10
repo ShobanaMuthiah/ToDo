@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Ropa+Sans:ital@0;1&display=swap');
+body{
+  text-align: center !important;
+  font-family:"Ropa Sans", sans-serif;
+}
+input{
+  border:1px solid #3A9E88 !important;
+  margin:10px !important;
+  border-radius: 5px !important;
+  padding-left: 5px !important;
+}
+.title{
+  color:#3A9E88
+}
+button{
+  margin:5px !important;
+  border-radius: 10px !important;
+  background-color: #4cbaa2 !important;
+  border:  #4cbaa2 !important;
+  color: white !important;
+  width: 80px !important;
+  font-size: smaller !important;
+  padding: 5px  !important
+  
+}
+.add{
+  width:100px !important
+}
+select{
+  background-color: rgb(246, 60, 60) ;
+  color:white;
+ 
+}
+option{
+  background-color: #ff7a7a;
+}
+.comp{
+  background-color: green;
+  font-size: .7em;
+}
+.notcomp{
+  /* background-color: rgb(0, 128, 23); */
+  font-size: .7em !important;
+}
+.del{
+  background-color: #D05E1E !important;
+}
+.card{
+  background-color: #CCF5D3 !important;
+  text-align: justify !important;
+  padding: 20px !important;
+}
+.cardbtn{
+  margin: 10px !important;
+  display: flex !important;
+  justify-content: end;
+}
+.bodyhead{
+  display:flex !important;
+  justify-content:  space-between ;
+  margin: 30px !important;
+}
+.filter{
+  font-size: 20px !important ;
+}
