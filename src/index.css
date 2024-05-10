@@ -4,6 +4,9 @@ body{
   text-align: center !important;
   font-family:"Ropa Sans", sans-serif;
 }
+.sts{
+  font-size: 20px !important;
+}
 input{
   border:1px solid #3A9E88 !important;
   margin:10px !important;
@@ -59,8 +62,10 @@ option{
 .bodyhead{
   display:flex !important;
   justify-content:  space-between ;
-  margin: 30px !important;
+  margin-right: 30px !important;
+  font-size: 5px !important;
 }
-.filter{
-  font-size: 20px !important ;
+
+.filt{
+  font-size: smaller !important;
 }

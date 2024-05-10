@@ -75,13 +75,13 @@ const Inputs = ({ addTodo, todo, settodo, delTodo }) => {
             )}
 <div className="bodyhead">
             <h3>My Todos</h3>
-            <h4>Status Filter :&nbsp;  &nbsp;
-                <select className='filter' value={filter} onChange={(e) => setFilter(e.target.value)}>
+            <h5>Status Filter :&nbsp;  &nbsp;
+                <select id="filter" className='filt w-auto ' value={filter} onChange={(e) => setFilter(e.target.value)}>
                     <option value="All">All</option>
                     <option value="Completed">Completed</option>
                     <option value="Not Completed">Not Completed</option>
                 </select>
-            </h4></div>
+            </h5></div>
             <div className="row row-cols-1 row-cols-sm-3 g-3">
                 {filterTodo.map((ele) => (
                     <div key={ele.id}>
@@ -89,7 +89,7 @@ const Inputs = ({ addTodo, todo, settodo, delTodo }) => {
                             <div className="card">
                                 <p><b>Name:</b> {ele.nm}</p>
                                 <p><b>Description:</b> {ele.des}</p>
-                                <p><b>Status:</b> <select className={ele.status?'comp':'notcomp'}
+                                <p><b>Status:</b> <select id="com" className={ele.status?'comp':'notcomp'}
                                         value={ele.status}
                                         onChange={(e) => handleStatusChange(ele.id, e.target.value === 'true')}
                                     >
