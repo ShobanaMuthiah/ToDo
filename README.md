@@ -1,3 +1,8 @@
+* It is a CRUD Operations which would be implemented by React JS.
+* We can Add the Task Tile and Task Descriptions and if you want to Edit the ToDo, you can edit laterly
+* If you don't want that ToDo, you will delete the task.
+* Once you Completed the Task, you will be change the Status to Complete.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
